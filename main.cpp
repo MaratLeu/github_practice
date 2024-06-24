@@ -323,11 +323,11 @@ int main(int argc, char *argv[])
     cout << K1;
 
     MED<Med> S1 = Merge(M1, K1);
-    cout << S1;
     quicksort(S1, 0, S1.GetCount() - 1);
     cout << S1;
     if (tfile_3.open(QIODevice::WriteOnly)) {
         QTextStream out3(&tfile_3);
         out3 << S1;
     }
+    cout << S1;
 }

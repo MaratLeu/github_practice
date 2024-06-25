@@ -330,6 +330,4 @@ int main(int argc, char *argv[])
         out3 << S1;
     }
     cout << S1;
-    cout << "YES" << "\n";
-    cout << "NO" << "\n";
 }

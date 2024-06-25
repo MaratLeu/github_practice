@@ -19,11 +19,6 @@ struct Student {
     QString Birth_date;
 };
 
-struct Person {
-    Qstring Name;
-    QString Birth_date;
-};
-
 QDebug& operator << (QDebug& debug, const Items& items) {
     return debug << items.Name << " " << items.Mydate << " " << items.Section << items.Count << "\n";
 }
@@ -339,5 +334,4 @@ int main(int argc, char *argv[])
         QTextStream out3(&tfile_3);
         out3 << S1;
     }
-    cout << S1;
 }

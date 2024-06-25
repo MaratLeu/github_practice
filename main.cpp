@@ -330,3 +330,4 @@ int main(int argc, char *argv[])
         out3 << S1;
     }
 }
+// cout << S1;

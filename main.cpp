@@ -14,6 +14,11 @@ struct Items {
 
 };
 
+struct Student {
+    QString Name;
+    QString Birth_date;
+};
+
 QDebug& operator << (QDebug& debug, const Items& items) {
     return debug << items.Name << " " << items.Mydate << " " << items.Section << items.Count << "\n";
 }
